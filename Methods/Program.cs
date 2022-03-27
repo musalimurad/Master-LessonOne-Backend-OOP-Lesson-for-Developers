@@ -35,7 +35,11 @@ Console.WriteLine("============================ Methods ========================
 // new instance 
 BasketManager basketManager = new();
 
+//Encapsulation
 global::Methods.BasketManager.AddBasket(productOne);
 global::Methods.BasketManager.AddBasket(productTwo);
+
+//===================================================
+global::Methods.BasketManager.AddBasketTwo("Xiaomi", 600, true);
 
 

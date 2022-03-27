@@ -15,5 +15,10 @@ namespace Methods
             Console.WriteLine($"ID-si {product.Id} olan {product.Name}  sebete elave olundu!");
             Console.WriteLine("====================");
         }
+
+        public static void AddBasketTwo(string name, double price, bool isStock) 
+        {
+            Console.WriteLine($"mehsul adi: {name}, qiymeti: {price}Azn, satisda movcuddur? : {isStock} ");
+        }
     }
 }
